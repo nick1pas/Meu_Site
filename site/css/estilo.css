@@ -10,13 +10,13 @@ body{
 
 
 ul{
-    position: absolute;
+    position: relative;
     top: 85px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50% );
     display: flex;
-    margin: 0;
-    padding: 0;
+    margin: 8px;
+    padding: 18px;
 
 
 }
@@ -27,7 +27,7 @@ ul li {
 }
 
 ul li a .fa{
-    font-size: 40px;
+     font-size: 40px;
     color: #333;
     line-height: 80px;
     transition: 0.5s;
@@ -35,14 +35,16 @@ ul li a .fa{
 }
 
 ul li a span{
-    padding: 0;
+    padding: 3px;
     margin: 0;
     position: absolute;
     top: 30px;
-    color #333;
-    letter-spacing: 4px;
+    color: #333;
+    letter-spacing: 3px;
     transition: 0.5s;
-    font-size: 22px;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 ul li a{
@@ -101,9 +103,9 @@ ul li:hover a{
 }
 
 ul li:hover a::before{
-    background: #b33a2b;
+    background: #f35f4c;
 }
 
 ul li:hover a::after{
-    background: #e66a5a;
+    background: #e68578;
 }
